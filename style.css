@@ -1,0 +1,151 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #E1E1E1;
+}
+.container{
+	width: 1200px;
+	margin: 0 auto;
+}
+.clear{
+	overflow: hidden;
+}
+.topbar{
+	background-color: #598AF2;
+}
+.top-header{
+	float: left;
+	width: 60%;
+}
+.top-header i{
+	color: #FFFFFF;
+	padding: 10px;
+	font-size: 20px;
+}
+.social-icon{
+	float: right;
+	width: 10%;
+}
+.social-icon i{
+	color: #FFFFFF;
+	padding: 5px;
+	font-size: 18px;
+}
+.logo{
+	float: left;
+	width: 10%;
+}
+.logo img{
+	height: 50px;
+	width: 200px;
+	margin: -5px;
+	padding: 1px;
+	margin-left: 1px;
+
+}
+.navbar{
+	float: right;
+	width: 80%;
+}
+.navbar a{
+	text-align: center;
+	text-decoration: none;
+	font-size: 12px;
+	color: #598AF2;
+	padding: 8px;
+	float: left;
+	margin-top: 7px;
+}
+.dropdown{
+	float: left;
+}
+.dropdown .btn-drop{
+	border: none;
+	outline: none;
+	background-color: inherit;
+	font-size: 12px;
+	font-family: inherit;
+	padding: 8px;
+	color: #598AF2;
+	margin-top: 7px;
+}
+.dropdown-content{
+	display: none;
+	position: absolute;
+	background-color: #FFFFFF;
+	color: #598AF2;
+}
+.dropdown-content a{
+	text-align: center;
+	text-decoration: none;
+	font-size: 20px;
+	color: #598AF2;
+	padding: 5px;
+	text-align: left;
+	display: block;
+	float: none;
+}
+.dropdown:hover .dropdown-content{
+	display: block;
+}
+.dropdown-content a:hover{
+	background-color: #7CE1B5;
+}
+.navbar a:hover{
+	background-color: #F18110;
+}
+.btn-drop:hover{
+	background-color: #F18110;
+}
+.slider img{
+	width: 100%;
+}
+p{
+	background-color: #598AF2;
+	padding: 40px;
+}
+.header{
+	font-size: 50px;
+	font-style: oblique;
+	padding: 5px;
+	margin-left: 50px;
+}
+.about{
+	width: 340px;
+	float: left;
+	text-align: center;
+	margin: 19px;
+	border: 1px solid gray;
+	padding: 10px;
+}
+.about:hover{
+	background-color: #96EADA;
+}
+.btn-about{
+	border: none;
+	outline: none;
+	background-color: #138CEB;
+	color: #FFFFFF;
+	font-size: 18px;
+	font-family: inherit;
+	border-radius: 5px;
+}
+.service{
+	width: 340px;
+	float: left;
+	text-align: center;
+	margin: 19px;
+	border: 1px solid gray;
+	padding: 10px;
+}
+.service:hover{
+	background-color: #96EADA;
+}
+.footer{
+	background-color: #598AF2;
+	text-align: center;
+	padding: 10px;
+}
+.footer i{
+	font-size: 20px;
+}
